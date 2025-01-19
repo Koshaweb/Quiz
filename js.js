@@ -22,27 +22,27 @@ let questionsData = [
   },
 
   {
-    question: "Who is the the author of Becoming?",
-    options: ["Obama", "Micheal Obama", "Brian Tracy", "Shokrullah Kosha"],
-    correct: "Micheal Obama",
+    question: "Who is the author of Becoming?",
+    options: ["Obama", "Michelle Obama", "Brian Tracy", "Shokrullah Kosha"],
+    correct: "Michelle Obama",
   },
 
   {
-    question: "How many people were killed in Saudi Arabia accident on 2015 at Kaba?",
-    options: ["2100", "3500", "805", "1200"],
-    correct: "805",
+    question: "What is the currency of Australia?",
+    options: ["USD", "AUD", "EURO", "AFG"],
+    correct: "AUD",
   },
 
   {
-    question: "How states does Australia have?",
+    question: "How many states does Australia have?",
     options: ["6", "2", "8", "5"],
     correct: "6",
   },
 
   {
-    question: "Who is the author of Fear Money Purpose?",
-    options: ["Nancy Youssef", "Shokrullah Kosha", "Brian Tracy", "Yuwal Noh Herari"],
-    correct: "Nancy Youssef",
+    question: "What is the iconic of Australia?",
+    options: ["Opera House", "Harbour Bridge", "Blue Mountains", "All"],
+    correct: "All",
   },
 
 ];
