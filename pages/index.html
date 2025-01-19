@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Quiz App</title>
+  <script src="../js.js" defer></script>
+
+  <link rel="stylesheet" href="../public/style.css">
+</head>
+<body class="bg-gradient-to-br from-blue-100 via-white to-blue-50 min-h-screen flex items-center justify-center font-sans">
+  <div id="app" class="w-full max-w-3xl px-6 py-8 bg-white shadow-2xl rounded-3xl">
+
+    <!-- //////////////////////////////// Screen Welcome ///////////////////////////////////// -->
+    <div id="welcome-screen" class="flex flex-col items-center gap-8 text-center">
+      <h1 class="text-4xl font-bold text-blue-800">Welcome to the Quiz App</h1>
+      <p class="text-lg text-gray-700">Test your knowledge with our fun and interactive quiz!</p>
+      <button id="start-btn" class="bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-700 hover:shadow-xl transition-all">
+        Start Quiz 🚀
+      </button>
+    </div>
+
+    <!-- ////////////////////////////////Quiz Screen /////////////////////////////////////// -->
+    <div id="quiz-screen" class="hidden">
+      <span class="text-blue-800 text-xl font-semibold uppercase tracking-wider">Question <span id="question-number"></span></span>
+      <h2 id="question-title" class="text-2xl font-bold text-gray-800 my-6"></h2>
+      <div id="options" class="grid grid-cols-1 md:grid-cols-2 gap-4"></div>
+    </div>
+
+    <!-- ///////////////////////////////// Results Screen ///////////////////////////////////////////// -->
+    <div id="result-screen" class="hidden flex flex-col items-center gap-6">
+      <h1 class="text-3xl font-bold text-blue-800">Quiz Completed!</h1>
+      <p id="score" class="text-lg text-gray-700"></p>
+      <button id="restart-btn" class="bg-blue-600 text-white px-6 py-3 rounded-full shadow-lg hover:bg-blue-700 hover:shadow-xl transition-all">
+        Restart Quiz 🔄
+      </button>
+    </div>
+  </div>
+
+</body>
+</html>
